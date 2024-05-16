@@ -31,21 +31,17 @@ const defaultMenu = {
   before: `
 ◈ ━━━━━ *Senna  ┃ ᴮᴼᵀ* ━━━━━ ◈
  
-👋🏻 Hola! *%name*
-👥 Usuarios : %totalreg
-🟢 Tiempo activo : %muptime
+👋🏻 اهلا بك في بوت لوسيفار *%name*
+👥 عدد المستخدمين : %totalreg
+🟢 الوقت : %muptime
 %sbot
-▢ ADD
-• https://instagram.com/fg98_ff
+- حسابي الانستا
+• https://instagram.com/x._9.l
 
-• https://fgmods.xyz
-
-────────────
+👋🏻 كل القائمة لديك هنا *%name*
 %readmore
-  ≡ *LISTA DE MENUS*
+  ≡ *حو*
 
-Ⓟ = Premium
-ⓓ = Diamantes
 `.trimStart(),
   header: '┌─⊷ *%category*',
   body: '▢ %cmd %isdiamond %isPremium',
