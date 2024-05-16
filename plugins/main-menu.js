@@ -30,8 +30,9 @@ let tags = {
 const defaultMenu = {
   before: `
 ◈ ━━━━━ *بوت لوسيفار* ━━━━━ ◈
- 
+🇾🇪المطور⸢لوسيفار⸥ :
 👋🏻 اهلا بك في بوت لوسيفار *%name*
+
 👥 عدد المستخدمين : %totalreg
 🟢 الوقت : %muptime
 %sbot
