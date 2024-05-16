@@ -22,9 +22,9 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     ['🎥 MP4', `${usedPrefix}fgmp4 ${url}`]
   ], null, [['Canal', `${fgcanal}`]], m)
 }
-handler.help = ['play']
+handler.help = ['شغل']
 handler.tags = ['dl']
-handler.command = ['play', 'playvid']
+handler.command = ['شغل', 'playvid']
 handler.disabled = false
 
 export default handler
