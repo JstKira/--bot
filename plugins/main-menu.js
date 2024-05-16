@@ -40,7 +40,7 @@ const defaultMenu = {
 
 👋🏻 كل القائمة لديك هنا *%name*
 %readmore
-  ≡ *حو*
+  ≡ *القائمة*
 
 `.trimStart(),
   header: '┌─⊷ *%category*',
