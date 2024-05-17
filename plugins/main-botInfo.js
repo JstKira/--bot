@@ -42,27 +42,20 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let speed = neww - old
   
 let infobt = `
-≡ *INFO BOT*
+≡ *معلومات المطور*
   
-*ESTADO*
-▢ ${mssg.gp}s: *${groupsIn.length}*
-▢ Chats: *${chats.length - groupsIn.length}*
-▢ Total Chats: *${chats.length}*
+*🇾🇪المطور⸢لوسيفار⸥ :*
 
-*≡ OWNER*
-  *FG98*
-▢ Instagram :
+▢ انستجرام :
   • ${fgig}
-▢ Telegram : 
-  • t.me/fgsupp_bot (FG) 
-  • t.me/fg98ff (canal)
-  • t.me/fgawgp (grupo)
-▢ YouTube : 
-  • https://youtube.com/fg98f
+▢ ليجرام لمراسلتي: 
+  • https://t.me/P_lQQ
   
- *≡ HELPERS*
-  *ANDREA*
-▢ WhatsApp : wa.me/573125484672`
+▢ رقمي لمراسلتي عند حدث الاخطأ : 
+  • https://wa.me/+967735339177
+  
+ *≡ الاسسكربت*
+  *لايوجد حاليأ قيد التطوير*
 
 /*conn.sendButton(m.chat, infobt, mssg.ig, null, [
   ['ꨄ︎ Apoyar', `${usedPrefix}donate`],
@@ -71,8 +64,8 @@ let infobt = `
  m.reply(infobt)
 
 }
-handler.help = ['info']
+handler.help = ['المطور']
 handler.tags = ['main']
-handler.command = ['info', 'infobot', 'botinfo']
+handler.command = ['المطور', 'infobot', 'botinfo']
 
 export default handler
