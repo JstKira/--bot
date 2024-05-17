@@ -20,7 +20,7 @@ let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, comman
   m.react('🎧') 
   
   let play = `
-	≡ *FG MUSIC*
+	≡ *تفضل طلبك*
 ┌──────────────
 ▢ 📌 *${mssg.title}:* ${vid.title}
 ▢ 📆 *${mssg.aploud}:* ${vid.ago}
@@ -46,9 +46,9 @@ try {
 	  if(!isLimit) conn.sendFile(m.chat, dl_url, title + '.mp' + (3 + /vid$/.test(command)), `
  ≡  *FG YTDL*
   
-▢ *📌Título* : ${title}
-▢ *🎞️Calidad* : ${quality}
-▢ *⚖️Peso* : ${size}
+▢ *📌اسم الاغنيه* : ${title}
+▢ *🎞️الدقه* : ${quality}
+▢ *⚖️الحجم* : ${size}
 `.trim(), m, false, { mimetype: isVideo ? '' : 'audio/mpeg', asDocument: chat.useDocument })
 		m.react(done) 
   } catch {
