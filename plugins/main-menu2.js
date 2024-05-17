@@ -2,14 +2,14 @@
 let handler = async function (m, { conn, text, usedPrefix }) {
   
 let m2 = `
-≡ Use estos comandos sin el prefijo: *${usedPrefix}*
-┌─⊷ *AUDIOS* 
-▢ Bot
-▢ Buenos días
-▢ Buenas tardes 
-▢ Buenas noches
-▢ Fino señores
-▢ Sad
+≡ معلوماتي: *${usedPrefix}*
+┌─⊷ *😻:* 
+▢ قناتي
+▢ https://t.me/BX_XD
+▢ رقمي
+▢ https://wa.me/+967735339177
+▢ الاسكربت
+▢ قيد التطوير
 └──────────────
 `
     let pp = './src/fg_logo.jpg' 
@@ -21,8 +21,8 @@ let m2 = `
    
 }
 
-handler.help = ['menu2']
+handler.help = ['معلوماتي']
 handler.tags = ['main']
-handler.command = ['menu2', 'audios'] 
+handler.command = ['معلوماتي', 'المطور'] 
 
 export default handler
