@@ -2,41 +2,26 @@
 let handler = async (m, { conn }) => {
 
 m.reply(`
-≡  *${botName}ᴮᴼᵀ ┃ SUPPORT*
+≡  *${botName}⌘*
 
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈
-▢ Canal
-${fgcanal}
 
-▢ Grupo *1*
-${bgp}
+▢ الدعم⚡
+https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR
 
-▢ Grupo *2*
-${bgp2}
-
-▢ Grupo *NSFW* 🔞
-${bgp3}
-
-▢ 𝐌𝐘 - 𝐌𝐚𝐲𝐥𝐮𝐱 | ᴮᴼᵀ⚡
-https://chat.whatsapp.com/CTILZXSriIE3M40anVyPT4
-
-▢ 📲💻ANDROID WORLD🎬🎮
-https://chat.whatsapp.com/Ly4I2LObSvW8VgOnJjofgA
+▢ قناتي تليجرام
+https://t.me/BX_XD
 
 ◈ ━━━━━━━━━━━━━━━━━━━━ ◈
-▢ Todos los Grupos
- https://instabio.cc/fg98ff
+⚝ المطور
+⚝ https://wa.me/+967735339177
 
-▢ *Telegram*
-• https://t.me/fgawgp
- ▢ *PayPal*
-• https://paypal.me/fg98f
-▢ *YouTube*
-• https://www.youtube.com/fg98f`)
+▢ *معرفي تليحرام*
+メ https://t.me/P_lQQ
 
 }
-handler.help = ['support']
+handler.help = ['الدعم']
 handler.tags = ['main']
-handler.command = ['grupos', 'groups', 'support'] 
+handler.command = ['الدعم', 'groups', 'support'] 
 
 export default handler
