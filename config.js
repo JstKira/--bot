@@ -25,7 +25,7 @@ global.author = 'بوت لوسيفار'
 
 //--info FG
 global.botName = 'لوسيفار'
-global.fgig = 'https://instagram.com/fg98_ff' 
+global.fgig = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR' 
 global.fgsc = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR' 
 global.fgyt = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR'
 global.fgpyp = 'https://paypal.me/fg98f'
