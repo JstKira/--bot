@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url' 
 
 global.owner = [
-  ['967776643812', 'عمك', true],
+  ['967776643812', '967776643812', true],
   ['967776643812']
 ] //Numeros de owner 
 
@@ -26,17 +26,17 @@ global.author = 'بوت لوسيفار'
 //--info FG
 global.botName = 'لوسيفار'
 global.fgig = 'https://instagram.com/fg98_ff' 
-global.fgsc = 'https://github.com/FG98F/dylux-fg' 
-global.fgyt = 'https://youtube.com/fg98f'
+global.fgsc = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR' 
+global.fgyt = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR'
 global.fgpyp = 'https://paypal.me/fg98f'
-global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpgs' 
+global.fglog = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR' 
 
 //--- Grupos WA
 global.id_canal = '120363177092661333@newsletter' //-ID de canal de WhatsApp
-global.fgcanal = 'https://whatsapp.com/channel/0029VaCeuZd6mYPQiWqxXj1F'
-global.bgp = 'https://chat.whatsapp.com/BESBo5xjvIZE4YVvth6Yzr'
-global.bgp2 = 'https://chat.whatsapp.com/I7bvd8XCAOUHjgkHteqFC7'
-global.bgp3 = 'https://chat.whatsapp.com/F0JTTyZ3hsoL7OlU8TEpuH' //--GP NSFW
+global.fgcanal = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR'
+global.bgp = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR'
+global.bgp2 = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR'
+global.bgp3 = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR' //--GP NSFW
 
 global.wait = '⌛ _Cargando..._\n*▬▬▬▭*'
 global.rwait = '⌛'
