@@ -1,7 +1,4 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-
-let videoUrl = https://telegra.ph/file/2e8338d1327f0dc89e36c.mp4 ;  
-let vn =  ./media/menu.mp3 ;
     conn.relayMessage(m.chat, {
       viewOnceMessage: {
         message: {
@@ -53,5 +50,4 @@ let vn =  ./media/menu.mp3 ;
 handler.help = ['info']
 handler.tags = ['main']
 handler.command = ['المهام']
-
 export default handler
