@@ -69,7 +69,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
 
 handler.help = [ اغنيه ].map((v) => v +   <اسم الاغنيه> );
 handler.tags = [ downloader ];
-handler.command = [ mp3 ,  songs ,  ytmp3doc , اغنيه ]
+handler.command = [ شغل1 ,  songs ,  ytmp3doc , اغنيه ]
 
 handler.exp = 0;
 handler.diamond = false;
