@@ -1,20 +1,78 @@
-const da = [
-  'https://tinyurl.com/gdd01',
-  'https://tinyurl.com/gdd02',
-  'https://tinyurl.com/gdd003',
-  'https://tinyurl.com/gdd004',
-  'https://tinyurl.com/gdd05',
-  'https://tinyurl.com/gdd006'
-];
-let handler = async (m, { conn }) => {
-  conn.sendFile(m.chat, pickRandom(da), 'dado.webp', '', m)
-}
-handler.help = ['dado']
-handler.tags = ['game']
-handler.command = ['dado', 'dados'] 
 
-export default handler
+import ytdl from  ytdl-core ;
+import yts from  yt-search ;
+import fs from  fs ;
+import { pipeline } from  stream ;
+import { promisify } from  util ;
+import os from  os ;
 
-function pickRandom(list) {
-  return list[Math.floor(list.length * Math.random())]
-}
+const streamPipeline = promisify(pipeline);
+
+var handler = async (m, { conn, command, text, usedPrefix }) => {
+  if (!text) throw `مثال : \n ${usedPrefix}${command} midle of night`;
+
+  let search = await yts(text);
+  let vid = search.videos[Math.floor(Math.random() * search.videos.length)];
+  if (!search) throw  Video Not Found, Try Another Title ;
+  let { title, thumbnail, timestamp, views, ago, url } = vid;
+  let wm =   *لوسيفار*  ; //حط اسم بوتك
+
+  let captvid = `  جاري التحميل `;
+
+  conn.sendMessage(m.chat, { image: { url: thumbnail }, caption: captvid, footer: author }, { quoted: m });
+
+
+  const audioStream = ytdl(url, {
+    filter:  audioonly ,
+    quality:  highestaudio ,
+  });
+
+  // Get the path to the system s temporary directory
+  const tmpDir = os.tmpdir();
+
+  // Create writable stream in the temporary directory
+  const writableStream = fs.createWriteStream(`${tmpDir}/${title}.mp3`);
+
+  // Start the download
+  await streamPipeline(audioStream, writableStream);
+
+  let doc = {
+    audio: {
+      url: `${tmpDir}/${title}.mp3`
+    },
+    mimetype:  audio/mp4 ,
+    fileName: `${title}`,
+    contextInfo: {
+      externalAdReply: {
+        showAdAttribution: true,
+        mediaType: 2,
+        mediaUrl: url,
+        title: title,
+        body: wm,
+        sourceUrl: url,
+        thumbnail: await (await conn.getFile(thumbnail)).data
+      }
+    }
+  };
+
+  await conn.sendMessage(m.chat, doc, { quoted: m });
+
+  // Delete the audio file
+  fs.unlink(`${tmpDir}/${title}.mp3`, (err) => {
+    if (err) {
+      console.error(`Failed to delete audio file: ${err}`);
+    } else {
+      console.log(`Deleted audio file: ${tmpDir}/${title}.mp3`);
+    }
+  });
+};
+
+handler.help = [ اغنيه ].map((v) => v +   <اسم الاغنيه> );
+handler.tags = [ downloader ];
+handler.command = [ mp3 ,  songs ,  ytmp3doc , اغنيه ]
+
+handler.exp = 0;
+handler.diamond = false;
+
+export default handler;
+    
