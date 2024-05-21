@@ -6,17 +6,17 @@ let handler = async (m, { conn, usedPrefix, text }) => {
     let teks = text ? text : cc.text
     conn.reply(m.chat, `✅ ${mssg.txdone} *${mssg.total}:* *${users.length}* sub bots\n\n${users.map((v, i) => `*${i + 1}.* wa.me/${v.replace(/[^0-9]/g, '')}?text=${usedPrefix}help`).join('\n')}`.trim(), m)
     
-    let content = conn.cMod(m.chat, cc, /txbot|broadcast/i.test(teks) ? teks : `${mssg.tx.toUpperCase()} ┃ SUB BOTS\n_____________________\n\n${teks}`)
+    let content = conn.cMod(m.chat, cc, /txbot|broadcast/i.test(teks) ? teks : `${mssg.tx.toUpperCase()} ┃ بوت لوسيفار\n_____________________\n\n${teks}`)
     for (let id of users) {
       await delay(1500)
       await conn.copyNForward(id, content, true)
     }
-   //m.reply('✅ Se transmitió a todos los Sub-Bots')
+   //m.reply('تم ارساله البث للجروبات')
     
 } 
-handler.help = ['txbot']
+handler.help = ['بث_للمطور']
 handler.tags = ['bebot']
-handler.command = ['txbot'] 
+handler.command = ['بث'] 
 handler.rowner = true
 
 export default handler
