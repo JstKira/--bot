@@ -1,3 +1,4 @@
+
 import ytdl from  ytdl-core ;
 import yts from  yt-search ;
 import fs from  fs ;
@@ -73,8 +74,8 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   });
 };
 
-handler.help = [ اغنيه3 ].map((v) => v +   <query> );
+handler.help = [ play ].map((v) => v +   <query> );
 handler.tags = [ downloader ];
-handler.command = /^اغنيه3|song$/i;
+handler.command = /^play|song$/i;
 handler.diamond = false
 export default handler;
