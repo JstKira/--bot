@@ -41,9 +41,9 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     else throw `${mssg.stickError}`
   }
 }
-handler.help = ['sticker']
+handler.help = ['ملصق']
 handler.tags = ['sticker']
-handler.command = ['s', 'sticker'] 
+handler.command = ['ستيكر', 'ملصق'] 
 
 export default handler
 
