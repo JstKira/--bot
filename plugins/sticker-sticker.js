@@ -44,7 +44,7 @@ text.trim(), m, null, rcanal)
     m.react( 📚 )
   }
 }
-handler.help = [ ملصق ]
+handler.help = [,ملصق,]
 handler.tags = [ sticker ]
 handler.command = [ ستيكر ,  ملصق ] 
 
