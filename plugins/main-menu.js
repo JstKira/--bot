@@ -5,47 +5,35 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 //import { plugins } from '../lib/plugins.js'
 let tags = {
-  'main': 'ACERCA DE',
-  'bebot': 'SUB BOTS',
-  'game': 'JUEGOS',
-  'econ': 'NIVEL & ECONOMIA',
-  'rg': 'REGISTRO',
-  'sticker': 'STICKER',
-  'img': 'IMAGEN',
-  'maker': 'MAKER',
-  'prem': 'PREMIUM',
-  'group': 'GRUPO',
-  'nable': 'EN/DISABLE OPCIONES', 
-  'nime': 'ANIME',
-  'rnime': 'ANIME REACCION',
-  'dl': 'DESCARGAS',
-  'tools': 'TOOLS',
-  'fun': 'FUN',
-  'cmd': 'DATABASE',
-  'nsfw': 'NSFW +18',
-  'ansfw': 'NSFW ANIME', 
-  'owner': 'OWNER', 
-  'advanced': 'AVANZADO',
+  'main': 'معلومات البوت',
+  'game': 'قسم الألعاب',
+  'econ': 'قسم البنك',
+  'rg': 'قسم التسجيل',
+  'sticker': 'قسم الملصقات',
+  'img': 'قسم الصور',
+  'maker': 'توليد الصور',
+  'group': 'قسم الجروب', 
+  'nime': 'قسم الإنمي',
+  'rnime': 'منشن انمي',
+  'dl': 'قسم التنزيلات',
+  'tools': 'قسم الادوات',
+  'fun': 'قسم الترفيه', 
+  'owner': 'قسم المطور', 
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *بوت لوسيفار* ━━━━━ ◈
-🇾🇪المطور⸢لوسيفار⸥ :
-👋🏻 اهلا بك في بوت لوسيفار *%name*
-👥 عدد المستخدمين : %totalreg
-🕛 الوقت : %muptime
-%sbot
-📷 حسابي الانستا
-• https://instagram.com/x._9.l
-
-👋🏻 كل القائمة لديك هنا *%name*
+ 
+*━⊱│✫ -『 𝗟𝐔𝐂𝐈𝐅𝐀𝐑 𝐁𝐎𝐓 』- ✫│⊱━*\n 
+        *𝐁𝐎𝐓 𝗟𝐔𝐂𝐈𝐅𝐀𝐑🇵🇸*
+ ╭━━━━⊱『 *𝑴𝒊𝒓𝒛𝒂* 』⊱━━━━━╮
+> *👋🏻 مرحباَ:* *%name*\n> *👥 عدد المستخدمين:* *%totalreg*\n> *🟢 وقت النشاط:* %muptime
+╯━━━━━━━━━━━━━━━━━╰
 %readmore
-  ≡ *القائمة*
-
+≡ * 𝗟𝐔𝐂𝐈𝐅𝐀𝐑 | 𝐁𝐎𝐓*
 `.trimStart(),
-  header: '┌─⊷ *%category*',
-  body: '▢ %cmd %isdiamond %isPremium',
-  footer: '└───────────\n',
+  header: "╮━━⊱ 「 *%category* 」⊱━━╭",
+ body: "  │✫ -  %cmd %isdiamond %isPremium",
+ footer: "╯━━━━━━━━━━━━━━━╰",
   after: `
 `,
 }
@@ -110,7 +98,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let header = conn.menu.header || defaultMenu.header
     let body = conn.menu.body || defaultMenu.body
     let footer = conn.menu.footer || defaultMenu.footer
-    let after = conn.menu.after || (conn.user.jid == conn.user.jid ? '' : `⭐ Powered by FG98 https://wa.me/${conn.user.jid.split`@`[0]}`) + defaultMenu.after
+    let after = conn.menu.after || (conn.user.jid == conn.user.jid ? '' : `⭐ Powered by 𝑴𝒊𝒓𝒛𝒂 𝑩𝒐𝒕 https://wa.me/${conn.user.jid.split`@`[0]}`) + defaultMenu.after
     let _text = [
       before,
       ...Object.keys(tags).map(tag => {
@@ -149,11 +137,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     
     let pp = './src/fg_logo.jpg'
 
-    /*conn.sendButton(m.chat, text.trim(), `▢ DyLux  ┃ ᴮᴼᵀ\n${mssg.ig}`, pp, [
-      ['ꨄ︎ Apoyar', `${_p}donate`],
-      ['⏍ Info', `${_p}botinfo`],
-      ['⌬ Grupos', `${_p}gpdylux`]
-    ], m, rpl)*/
+      conn.sendButton2(m.chat, rcanal, text.trim(), `▢ 𝑴𝒊𝒓𝒛𝒂 ┃ ᴮᴼᵀ\n${mssg.ig}`, pp [
+      ['⏍ معلومات البوت', `${_p}botinfo`],
+      ['⌬ الدعم', `${_p}support`]
+    ], m, rpl)
     conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, rcanal)
   
     m.react('✨') 
@@ -165,7 +152,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 }
 //handler.help = ['help']
 //handler.tags = ['main']
-handler.command = ['اوامر', 'الاوامر', 'menú'] 
+handler.command = ['اوامر',| 'أوامر’ |’المهام'] 
 handler.register = false
 
 export default handler
