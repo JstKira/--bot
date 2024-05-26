@@ -3,12 +3,12 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url' 
 
 global.owner = [
-  ['967776643812', '967776643812', true],
-  ['967776643812']
+  ['+967734144053', '967734144053', true],
+  ['967734144053']
 ] //Numeros de owner 
 
 global.mods = [''] 
-global.prems = ['967776643812', '967776643812']
+global.prems = ['967734144053', '967734144053']
 global.APIs = { // API Prefix
   // name: 'https://website' 
   nrtm: 'https://fg-nrtm.ddns.net',
@@ -20,23 +20,23 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'لوسيفار' 
-global.author = 'بوت لوسيفار' 
+global.packname = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠' 
+global.author = '-بوت ڪَباؘس丫:١⁶𝑘𝑎𝑝𝑎𝑠' 
 
 //--info FG
-global.botName = 'لوسيفار'
-global.fgig = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR' 
-global.fgsc = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR' 
-global.fgyt = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR'
+global.botName = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠'
+global.fgig = 'https://www.instagram.com/kskk721?igsh=OGQ5ZDc2ODk2ZA==' 
+global.fgsc = 'https://www.instagram.com/kskk721?igsh=OGQ5ZDc2ODk2ZA==' 
+global.fgyt = 'https://www.instagram.com/kskk721?igsh=OGQ5ZDc2ODk2ZA=='
 global.fgpyp = 'https://paypal.me/fg98f'
-global.fglog = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR' 
+global.fglog = 'https://www.instagram.com/kskk721?igsh=OGQ5ZDc2ODk2ZA==' 
 
 //--- Grupos WA
-global.id_canal = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR' //-ID de canal de WhatsApp
-global.fgcanal = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR'
-global.bgp = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR'
-global.bgp2 = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR'
-global.bgp3 = 'https://chat.whatsapp.com/GcDlcb8r5QGAdgIH0VjfPR' //--GP NSFW
+global.id_canal = 'https://www.instagram.com/kskk721?igsh=OGQ5ZDc2ODk2ZA==' //-ID de canal de WhatsApp
+global.fgcanal = 'https://www.instagram.com/kskk721?igsh=OGQ5ZDc2ODk2ZA=='
+global.bgp = 'https://www.instagram.com/kskk721?igsh=OGQ5ZDc2ODk2ZA=='
+global.bgp2 = 'https://www.instagram.com/kskk721?igsh=OGQ5ZDc2ODk2ZA=='
+global.bgp3 = 'https://www.instagram.com/kskk721?igsh=OGQ5ZDc2ODk2ZA==' //--GP NSFW
 
 global.wait = '⌛ _Cargando..._\n*▬▬▬▭*'
 global.rwait = '⌛'
