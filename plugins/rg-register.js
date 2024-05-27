@@ -35,8 +35,8 @@ ${sn}
   conn.sendFile(m.chat, pp, 'img.jpg', regi, m)
 }
 
-handler.help = ['reg'].map(v => v + ' <nombre.edad.género>')
+handler.help = ['تسجيل'].map(v => v + ' <nombre.edad.género>')
 handler.tags = ['rg']
-handler.command = ['verify', 'reg', 'register', 'registrar'] 
+handler.command = ['verify', 'تسجيل', 'register', 'registrar'] 
 
 export default handler
