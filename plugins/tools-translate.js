@@ -1,6 +1,6 @@
 
 import { translate } from '@vitalets/google-translate-api'
-const defaultLang = 'es'
+const defaultLang = 'ar'
 const tld = 'cn'
 
 let handler = async (m, { args, usedPrefix, command }) => {
