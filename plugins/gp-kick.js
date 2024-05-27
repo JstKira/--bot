@@ -12,7 +12,7 @@ m.reply(`✅ ${mssg.kick}`)
 
 handler.help = ['kick @user']
 handler.tags = ['group']
-handler.command = ['kick', 'expulsar'] 
+handler.command = ['kick|كرش|طرد', 'expulsar'] 
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
