@@ -32,13 +32,11 @@ const defaultMenu = {
 ◈ ━━━━━ *ڪَباؘسِ丫:١  ┃ بوت* ━━━━━ ◈
  
 👋🏻 اهلان بك! *%name*
-👥 Usuarios : %totalreg
-🟢 Tiempo activo : %muptime
+👥 المستخدمين : %totalreg
+🟢 الوقت activo : %muptime
 %sbot
 ▢ ADD
-• https://instagram.com/fg98_ff
 
-• https://fgmods.xyz
 
 ────────────
 %readmore
@@ -169,7 +167,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 }
 //handler.help = ['help']
 //handler.tags = ['main']
-handler.command = ['menu', 'help', 'menú'] 
+handler.command = ['اوامر|menu', 'help', 'اوامر|menú'] 
 handler.register = false
 
 export default handler
