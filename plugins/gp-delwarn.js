@@ -18,7 +18,7 @@ let handler = async (m, { conn, args, groupMetadata}) => {
         }
 
 }
-handler.help = ['delwarn @user']
+handler.help = ['حذف @user']
 handler.tags = ['group']
 handler.command = ['delwarn|يمسح', 'unwarn'] 
 handler.group = true
