@@ -46,7 +46,7 @@ let handler = async (m, { conn, text, participants }) => {
 }
 handler.help = ['اضافه']
 handler.tags = ['group']
-handler.command = ['add']
+handler.command = ['اضافه']
 handler.admin = true
 handler.group = true
 handler.rowner = true
