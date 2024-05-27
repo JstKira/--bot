@@ -34,12 +34,6 @@ const defaultMenu = {
 👋🏻 اهلان بك! *%name*
 👥 المستخدمون : %totalreg
 🟢 وقت التشغيل : %muptime
-%sbot
-▢ ADD
-• https://instagram.com/fg98_ff
-
-• https://fgmods.xyz
-
 ────────────
 %readmore
   ≡ *LISTA DE MENUS*
