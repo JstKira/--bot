@@ -31,7 +31,7 @@ const defaultMenu = {
   before: `
 ◈ ━━━━━ *Senna  ┃ ᴮᴼᵀ* ━━━━━ ◈
  
-👋🏻 Hola! *%name*
+👋🏻 اهلان بك! *%name*
 👥 Usuarios : %totalreg
 🟢 Tiempo activo : %muptime
 %sbot
