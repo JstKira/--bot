@@ -29,11 +29,11 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *Senna  ┃ ᴮᴼᵀ* ━━━━━ ◈
+◈ ━━━━━ *بوت┃ڪَباؘسِ丫* ━━━━━ ◈
  
 👋🏻 اهلان بك! *%name*
-👥 Usuarios : %totalreg
-🟢 Tiempo activo : %muptime
+👥 المستخدمون : %totalreg
+🟢 وقت التشغيل : %muptime
 %sbot
 ▢ ADD
 • https://instagram.com/fg98_ff
