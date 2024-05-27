@@ -36,8 +36,8 @@ let str = `
     m.react(done)
 
 }
-handler.help = ['profile']
+handler.help = ['ايدي']
 handler.tags = ['group']
-handler.command = ['profile', 'ايدي']
+handler.command = ['ملفي-الشخصي', 'ايدي']
 
 export default handler
