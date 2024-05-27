@@ -38,6 +38,6 @@ let str = `
 }
 handler.help = ['profile']
 handler.tags = ['group']
-handler.command = ['profile', 'perfil']
+handler.command = ['profile|الملف الشخصي|ايدي', 'perfil']
 
 export default handler
