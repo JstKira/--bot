@@ -16,7 +16,7 @@ handler.before = async function (m) {
         } else {
             if (--this.لعبه[id][2] == 0) {
                 clearTimeout(this.math[id][3])
-                delete this.matthis.mthis.matthis.لعبه[id]
+                delete this.math[id]
                 m.reply(`*${mssg.mathOff}*\n\n${mssg.answer}: *${math.result}*`)
       } else m.reply(`❎ ${mssg.mathError} ${this.math[id][2]} ${mssg.chance}`)
         }
