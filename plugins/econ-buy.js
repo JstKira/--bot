@@ -30,9 +30,9 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
   }
 
 }
-handler.help = ['buy']
+handler.help = ['يشتري']
 handler.tags = ['econ']
-handler.command = ['buy'] 
+handler.command = ['يشتري'] 
 
 handler.disabled = false
 
