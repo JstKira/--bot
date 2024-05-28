@@ -3,12 +3,12 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url' 
 
 global.owner = [
-  ['+967734144053', '+967734144053', true],
+  ['967734144053', '967734144053', true],
   ['https://api.whatsapp.com/send?phone=967734144053']
 ] //Numeros de owner 
 
 global.mods = [''] 
-global.prems = ['967734144053', '+967734144053']
+global.prems = ['967734144053', '967734144053']
 global.APIs = { // API Prefix
   // name: 'https://website' 
   nrtm: 'https://fg-nrtm.ddns.net',
@@ -21,7 +21,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠' 
-global.author = '-بوت ڪَباؘس丫:١⁶𝑘𝑎𝑝𝑎𝑠' 
+global.author = 'بوت' 
 
 //--info FG
 global.botName = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠'
