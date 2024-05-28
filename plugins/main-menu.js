@@ -8,32 +8,38 @@ let tags = {
   'main': 'ACERCA DE',
   'bebot': 'SUB BOTS',
   'game': 'JUEGOS',
-  'econ': 'والاقتصاد & المستوى',
-  'rg': 'التسجيل',
-  'sticker':قسم ملصقات',
-  'img': 'تخيل',
-  'maker': 'صانع',
-  'prem': 'غالي',
-  'group': 'قسم الجروبات',
-  'nable': 'EN/تعطيل الخيارات', 
-  'nime': 'انمي',
-  'rnime': 'تفاعل انمي',
-  'dl': 'التفريغ',
-  'tools': 'ادوات',
-  'fun': 'هزار',
-  'cmd': 'قسم قاعده البينات ',
+  'econ': 'NIVEL & ECONOMIA',
+  'rg': 'REGISTRO',
+  'sticker': 'STICKER',
+  'img': 'IMAGEN',
+  'maker': 'MAKER',
+  'prem': 'PREMIUM',
+  'group': 'GRUPO',
+  'nable': 'EN/DISABLE OPCIONES', 
+  'nime': 'ANIME',
+  'rnime': 'ANIME REACCION',
+  'dl': 'DESCARGAS',
+  'tools': 'TOOLS',
+  'fun': 'FUN',
+  'cmd': 'DATABASE',
   'nsfw': 'NSFW +18',
-  'ansfw': 'قسم الانمي', 
-  'owner': 'قسم المطور', 
+  'ansfw': 'NSFW ANIME', 
+  'owner': 'OWNER', 
   'advanced': 'AVANZADO',
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *بوت┃ڪَباؘسِ丫* ━━━━ ◈
+◈ ━━━━━ *Senna  ┃ ᴮᴼᵀ* ━━━━━ ◈
  
-👋🏻 اهلان بك! *%name*
-👥 المستخدمون : %totalreg
-🟢 وقت التشغيل : %muptime
+👋🏻 Hola! *%name*
+👥 Usuarios : %totalreg
+🟢 Tiempo activo : %muptime
+%sbot
+▢ ADD
+• https://instagram.com/fg98_ff
+
+• https://fgmods.xyz
+
 ────────────
 %readmore
   ≡ *LISTA DE MENUS*
@@ -163,7 +169,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 }
 //handler.help = ['help']
 //handler.tags = ['main']
-handler.command = ['menu','اوامر', 'menú'] 
+handler.command = ['menu', 'help', 'menú'] 
 handler.register = false
 
 export default handler
