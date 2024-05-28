@@ -10,9 +10,9 @@ let handler = async (m, { conn }) => {
 🎉 ${mssg.mine} *${hasil} 🪙*`)
   user.lastmiming = new Date * 1
 }
-handler.help = ['mine']
+handler.help = ['ملكي']
 handler.tags = ['econ']
-handler.command = ['minar', 'miming', 'mine'] 
+handler.command = ['minar', 'miming', 'ملكي'] 
 
 export default handler
 
