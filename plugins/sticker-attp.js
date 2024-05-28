@@ -7,8 +7,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     if (stiker) return conn.sendFile(m.chat, stiker, 'sticker.webp', '', m )
     throw stiker.toString()
 }
-handler.help = ['attp <text>']
+handler.help = ['ملصق2 <..>']
 handler.tags = ['sticker']
-handler.command = ['attp'] 
+handler.command = ['ملصق2'] 
 
 export default handler
