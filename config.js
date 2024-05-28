@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url'
 
 global.owner = [
   ['+967734144053', '+967734144053', true],
-  ['+967734144053']
+  ['https://api.whatsapp.com/send?phone=967734144053']
 ] //Numeros de owner 
 
 global.mods = [''] 
