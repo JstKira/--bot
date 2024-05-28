@@ -62,9 +62,9 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         
 ${end}`) 
 }
-handler.help = ['slot <apuesta>']
+handler.help = ['رهان 100']
 handler.tags = ['game']
-handler.command = ['slot']
+handler.command = ['رهان']
 handler.group = true
 
 export default handler
