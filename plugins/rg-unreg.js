@@ -9,9 +9,9 @@ let handler = async function (m, { conn, args, usedPrefix}) {
   user.rgenero = false
   m.reply(`✅ ${mssg.unReg}`)
 }
-handler.help = ['unreg <Num Serie>'] 
+handler.help = ['تحقق'] 
 handler.tags = ['rg']
-handler.command = ['unreg'] 
+handler.command = ['تحقق'] 
 handler.register = true
 
 export default handler
