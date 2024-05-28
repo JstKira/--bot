@@ -8,6 +8,6 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 }
 handler.help = ['قواعد']
 handler.tags = ['group']
-handler.command = ['rules', 'reglas'] 
+handler.command = ['قواعد', 'reglas'] 
 
 export default handler
