@@ -46,9 +46,9 @@ ${pluginNames.map(name => `▢ ${name}`).join('\n')}
     m.reply('❎ Error')
   }
 };
-handler.help = ['الرقم-التسلسلي']
+handler.help = ['رقم-التسلسل']
 handler.tags = ['owner']
-handler.command = ['الرقم-التسلسلي']
+handler.command = ['رقم-التسلسل']
 handler.rowner = true
 
 export default handler
