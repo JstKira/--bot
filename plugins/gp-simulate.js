@@ -2,7 +2,7 @@
 let handler = async (m, { conn, usedPrefix, command, args: [event], text }) => {
 
   let chat = global.db.data.chats[m.chat]
-  if (!chat.welcome) throw `✳️ Para usar este comando debe actvar las Bienvenidas con\n\n *${usedPrefix}on* welcome`
+  if (!chat.welcome) throw `✳️ ֎╎لتفعيل هذا الامر يجب ان تعمل على تشغيل 🫶 las Bienvenidas con\n\n *${usedPrefix}on* welcome`
   let te = `
   ┌─⊷ *EVENTOS*
   ▢ welcome
@@ -56,9 +56,9 @@ participants: part,
 action: act
 })
 }
-handler.help = ['simulate <event> @user']
+handler.help = ['تفعيل <....> @']
 handler.tags = ['group']
-handler.command = ['simular', 'simulate'] 
+handler.command = ['تفعيل', 'تمكين'] 
 handler.admin = true
 handler.group = true
 
