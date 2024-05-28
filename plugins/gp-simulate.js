@@ -2,16 +2,16 @@
 let handler = async (m, { conn, usedPrefix, command, args: [event], text }) => {
 
   let chat = global.db.data.chats[m.chat]
-  if (!chat.welcome) throw `✳️ ֎╎لتفعيل هذا الامر يجب ان تعمل على تشغيل 🫶 las Bienvenidas con\n\n *${usedPrefix}on* welcome`
+  if (!chat.welcome) throw `✳️ ֎╎لتفعيل هذا الامر يجب ان تعمل على تشغيل  las Bienvenidas con\n\n *${usedPrefix}on* welcome`
   let te = `
-  ┌─⊷ *EVENTOS*
-  ▢ welcome
-  ▢ bye
+  ┌─⊷ *الاحداث*
+  ▢ الترحيب
+  ▢ المغادره
   ▢ promote
   ▢ demote
   └───────────
   
-  📌 Ejemplo :
+  📌 مثال :
   
   *${usedPrefix + command}* welcome @user`
 
