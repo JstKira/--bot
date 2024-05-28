@@ -39,7 +39,7 @@ try {
     	user.role = global.rpg.role(user.level).name
        
         let str = `
-┌─⊷ *LEVEL UP*
+┌─⊷ *المستوى*
 ▢ ${mssg.lvlbfor}: *${before}*
 ▢ ${mssg.lvlup}: *${user.level}*
 ▢ ${mssg.rank}: *${user.role}*
@@ -58,8 +58,8 @@ try {
     }
 }
 
-handler.help = ['levelup']
+handler.help = ['مستوى']
 handler.tags = ['econ']
-handler.command = ['nivel', 'lvl', 'levelup', 'level'] 
+handler.command = ['nivel', 'lvl', 'مستوى', 'ترتيب'] 
 
 export default handler
