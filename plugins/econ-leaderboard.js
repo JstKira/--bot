@@ -39,9 +39,9 @@ ${sortedLevel.slice(0, len).map(({ jid, level }, i) => `*${i + 1}.* ${participan
 })
  
 }
-handler.help = ['leaderboard']
+handler.help = ['المتصدرين']
 handler.tags = ['econ']
-handler.command = ['leaderboard', 'lb', 'top'] 
+handler.command = ['المتصدرين', 'lb', 'top'] 
 
 export default handler
 
