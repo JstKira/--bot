@@ -71,9 +71,9 @@ handler.before = async m => {
     }
 }
 
-handler.help = ['transfer'].map(v => v + ' [tipo] [monto] [@tag]')
+handler.help = ['تحويل'].map(v => v + ' [tipo] [monto] [@tag]')
 handler.tags = ['econ']
-handler.command = ['payxp','paydi', 'transfer', 'darxp','dardi', 'pay']
+handler.command = ['payxp','paydi', 'تحويل', 'darxp','dardi', 'pay']
 
 export default handler
 
