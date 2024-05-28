@@ -15,8 +15,8 @@ handler.before = async function (m) {
             m.reply(`✅ *${mssg.gaDone}*\n\n‣ ${mssg.win} : *+${math.bonus} 🪙*`)
         } else {
             if (--this.لعبه[id][2] == 0) {
-                clearTimeout(this.math[id][3])
-                delete this.math[id]
+                clearTimeout(this.لعبه [id][3])
+                delete this.لعبه[id]
                 m.reply(`*${mssg.mathOff}*\n\n${mssg.answer}: *${math.result}*`)
       } else m.reply(`❎ ${mssg.mathError} ${this.math[id][2]} ${mssg.chance}`)
         }
