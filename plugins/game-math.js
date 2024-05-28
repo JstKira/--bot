@@ -26,7 +26,7 @@ ${Object.keys(modes).join(' | ')}
 }
 handler.help = ['mates <modo>']
 handler.tags = ['game']
-handler.command = ['mates', 'mate', 'matemáticas', 'math'] 
+handler.command = ['لعبه', 'mate', 'matemáticas', 'math'] 
 
 
 let modes = {
