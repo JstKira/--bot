@@ -62,7 +62,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         
 ${end}`) 
 }
-handler.help = ['رهان 100']
+handler.help = ['رهان']
 handler.tags = ['game']
 handler.command = ['رهان']
 handler.group = true
