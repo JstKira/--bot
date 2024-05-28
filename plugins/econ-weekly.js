@@ -12,9 +12,9 @@ let handler = async (m, {conn}) => {
 🪙 *${mssg.money}* : +${we.toLocaleString()}`)
   user.weekly = new Date * 1
 }
-handler.help = ['weekly']
+handler.help = ['اسبوعي']
 handler.tags = ['econ']
-handler.command = ['weekly', 'semanal'] 
+handler.command = ['اسبوعي', 'semanal'] 
 
 export default handler
 
