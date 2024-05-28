@@ -23,7 +23,7 @@ m.reply(`✅ ${mssg.promote}`)
 }}
 handler.help = ['ترقيه']
 handler.tags = ['group']
-handler.command = ['رفع', 'promover'] 
+handler.command = ['ترقيه', 'promover|رفع'] 
 handler.group = true
 handler.admin = true
 handler.botAdmin = true
