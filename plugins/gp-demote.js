@@ -26,7 +26,7 @@ m.reply(`✅ ${mssg.demote}`)
 }
 handler.help = ['تخفيض (@tag)']
 handler.tags = ['group']
-handler.command = ['تنزيل', 'degradar'] 
+handler.command = ['تخفيض', 'تنزيل'] 
 handler.group = true
 handler.admin = true
 handler.botAdmin = true
