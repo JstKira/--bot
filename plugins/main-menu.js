@@ -35,8 +35,6 @@ const defaultMenu = {
 👥 المستخدمون : %totalreg
 🟢 وقت النشاط : %muptime
 %sbot
-
-
 ────────────
 %readmore
   ≡ *LISTA DE MENUS*
