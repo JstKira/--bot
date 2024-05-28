@@ -19,9 +19,9 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 `, null, rcanal)
   user.lastwork = new Date * 1
 }
-handler.help = ['work']
+handler.help = ['عمل']
 handler.tags = ['econ']
-handler.command = ['work', 'w', 'trabajar']
+handler.command = ['عمل', 'w', 'trabajar']
 
 export default handler
 
