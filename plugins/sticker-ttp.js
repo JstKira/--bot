@@ -10,8 +10,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     if (stiker) return await conn.sendFile(m.chat, stiker, '', '', m, null, rpl)
     throw stiker.toString()
 }
-handler.help = ['ttp <text>']
+handler.help = ['ملصق3 <text>']
 handler.tags = ['sticker']
-handler.command = ['ttp']
+handler.command = ['ملصق3']
 
 export default handler
