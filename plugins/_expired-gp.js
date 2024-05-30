@@ -5,9 +5,9 @@ export async function all(m) {
     let chats = global.db.data.chats[m.chat]
     if (!chats.expired)
         return !0
-    if (+new Date() > chats.expired) {
+    if (+new Date() > chats.الصلاحيه {
         await this.reply(m.chat, `🔴 Adiós shavales  *${this.user.name}* saldrá del grupo \n\nfinalizo su alquiler`)
         await this.groupLeave(m.chat)
-        chats.expired = null
+        chats.الصلاحيه = null
     }
 }
